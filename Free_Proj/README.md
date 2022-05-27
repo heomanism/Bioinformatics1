@@ -17,6 +17,6 @@
 ### ~ 5/27
 - 프로젝트 설정
 - 프로젝트 관련 논문 내용 정리
-- LIN28A의 Shannon entropy 플롯을 그
+- LIN28A의 Shannon entropy 플롯을 그림
 
 
