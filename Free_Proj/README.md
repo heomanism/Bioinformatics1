@@ -27,7 +27,9 @@
 ### ~ 06/03
 - 프로젝트 관련 논문 내용 정리 추가
 - Transcriptome-wide level에서 CLIP-35L33G.bam으로부터 CLIP-35L33G.pileup을 만든 후, Shannon's entropy information를 구함
-
+- 기계학습 모델인 KNN, SVM, randomForest 개념 공부를 진행하였고, 모델 학습 방법에 대한 공부를 함
+- 현재 계획으로는 10(5) fold Cross-validation 과정으로 모델의 성능을 평가할 예정이지만, 문헌 조사를 통해 마땅한 Replication dataset을 찾는다면 데이터셋을 모델에 적용할 예정
+- 
 ### ~ 06/10
 -
 -
