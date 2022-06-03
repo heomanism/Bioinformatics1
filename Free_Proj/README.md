@@ -7,18 +7,18 @@
 4. 위의 내용을 우선은 R을 사용하여 분석해보고, 시간이 허락한다면 Python으로도 해볼 예정
 
 ## 프로젝트 관련 논문 정리
+- Monoclonal anti-LIN28A antibody인 35L33G를 이용하여 CLIP-seq data(CLIP-35L33G.bam)를 얻음 
 - CLIP-seq data는 single-nucleotide resolution에서 protein binding sites를 mapping하는 것을 도움
 - most substitutions in CLIP tags는 base 'G'에서 대부분 발견되었고, 나머지 'A','C','U'는 RNA-seq library에서의 error frequency와 비교햇을 때 유사한 것을 확인함
-- LIN28A-binding sites를 transcriptome-wide level에서 Shannon's information entropy를 통해서 찾음 (특정 position에서 nucleotide composition의 randomness를 정량화 하는 방법)
-
-- 
-- 
--
-
+- LIN28A-binding sites를 transcriptome-wide level에서 Shannon's entropy information를 통해서 찾음 (특정 position에서 nucleotide composition의 randomness를 정량화 하는 방법)
+- Crosslinking-induced reverese-transcription error score(CRES)가 Shannon's entropy로 결정됨
+- mutated nucleotide를 포함하는 sequence를 centered 시켜서 WebLogo로 visualization 시킴 (Fig 2A, Fig S3C)
+- hexamer seuqence를 binding site를 centered한 것에서 -2 ~ +3으로 설정함
 
 
 ## 프로젝트 내용 
 1번 2번 3번의 목표를 순차적으로 달성할 예정
+
 ### ~ 5/27
 - 프로젝트 설정
 - 프로젝트 관련 논문 내용 정리
@@ -26,5 +26,5 @@
 
 ### ~ 06/03
 - 프로젝트 관련 논문 내용 정리 추가
-- Transcriptome level 
+- Transcriptome-wide level에서 CLIP-35L33G.bam으로부터 CLIP-35L33G.pileup을 만든 후, Shannon's entropy information를 구함
 -
