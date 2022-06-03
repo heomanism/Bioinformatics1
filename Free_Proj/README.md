@@ -27,4 +27,4 @@
 ### ~ 06/03
 - 프로젝트 관련 논문 내용 정리 추가
 - Transcriptome-wide level에서 CLIP-35L33G.bam으로부터 CLIP-35L33G.pileup을 만든 후, Shannon's entropy information를 구함
--
+- 
