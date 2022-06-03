@@ -11,6 +11,11 @@
 - most substitutions in CLIP tags는 base 'G'에서 대부분 발견되었고, 나머지 'A','C','U'는 RNA-seq library에서의 error frequency와 비교햇을 때 유사한 것을 확인함
 - LIN28A-binding sites를 transcriptome-wide level에서 Shannon's information entropy를 통해서 찾음 (특정 position에서 nucleotide composition의 randomness를 정량화 하는 방법)
 
+- 
+- 
+-
+
+
 
 ## 프로젝트 내용 
 1번 2번 3번의 목표를 순차적으로 달성할 예정
@@ -19,4 +24,7 @@
 - 프로젝트 관련 논문 내용 정리
 - LIN28A의 Shannon entropy 플롯을 그림
 
-
+### ~ 06/03
+- 프로젝트 관련 논문 내용 정리 추가
+- Transcriptome level 
+-
