@@ -15,18 +15,18 @@
 
 
 ## 프로젝트 내용 
-### ~ 5/27 - python
+### ~ 5/27 - by python
 - 프로젝트 설정
 - 프로젝트 관련 논문 내용 정리
 - LIN28A의 protein이 얼마나 자기 자신의 서열에 붙는지 궁금해서, LIN28A의 Shannon entropy 플롯을 그림
 
-### ~ 06/03 - python
+### ~ 06/03 - by python
 - 프로젝트 관련 논문 내용 정리 추가
 - Transcriptome-wide level에서 CLIP-35L33G.bam으로부터 CLIP-35L33G.pileup을 만든 후, Shannon's entropy information를 구함
 - 기계학습 모델인 KNN, SVM, randomForest 개념 공부를 진행하였고, 모델 학습 방법에 대한 공부를 함
 - 현재 계획으로는 10(5) fold Cross-validation 과정으로 모델의 성능을 평가할 예정이지만, 문헌 조사를 통해 마땅한 Replication dataset을 찾는다면 데이터셋을 모델에 적용할 예정
 
-### ~ 06/10
+### ~ 06/10 - by R
 - Chromosome이 정해지지 않은 Scaffold를 filtering하였고, 분석 과정에서는 Mitochondria chromosome을 filering하고 진행함 
 - (-) Strand가 pileup 파일에서 소문자로 인식되는 것을 확인하고, (+) strand와 (-) strand를 각각 나눠서, entropy를 구함
 - Motif의 range는 -10 ~ 10로 설정하였고,  Entropy > 0.8 & reads counts > 이상인 것을 Motif, Entropy < 0.8 & reads counts > 50 이상인 것을 Non-Motif라고 함
@@ -39,4 +39,4 @@
 - (+) , (-) strand를 처리하는데 시간이 굉장히 많이 소요됨, srandness에 대한 완벽한 이해가 필요함
 - 유명한 기계학습 방법들을 가지고, 성능을 테스트하였지만, 정작 내부 알고리즘을 자세히 모르기 때문에 깊은 이해가 필요함
 - Non-motif와 Motif 수의 차이가 너무 많이 나기 때문에(Unbalanced Data), Sampling을 하는 방법 말고 다른 방법이 적용되면 더 좋겠다는 생각을 함
-- Prediction에 사용된 motif의 범위가 -2 ~ 3 인데, 특정 bp 씩 늘려가면서 predictor를 test하는 것이 필요함, 현재 생각으로는 bp를 늘리면 늘릴수록 성능이 안좋아질 것 같음
+- Prediction에 사용된 motif의 범위가 -2 ~ 3 인데, 특정 bp 씩 늘려가면서 predictor를 test하는 것이 필요함, 현재 생각으로는 bp를 늘리면 늘릴수록 성능이 안좋아질 것 같긴 하지만, 2차 구조등 더 고려해볼만한 사항을 추가해서 prediction을 진행하면 성능이 더 좋아질 것 같기도 함
